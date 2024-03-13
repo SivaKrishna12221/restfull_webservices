@@ -1,0 +1,5 @@
+server:
+ port: 3143
+ servlet:
+  context-path: /request_param
+  

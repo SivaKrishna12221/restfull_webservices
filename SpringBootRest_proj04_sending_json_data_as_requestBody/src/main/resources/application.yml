@@ -1,0 +1,6 @@
+
+server:
+ port: 4132
+ 
+ servlet:
+  context-path: /request_body

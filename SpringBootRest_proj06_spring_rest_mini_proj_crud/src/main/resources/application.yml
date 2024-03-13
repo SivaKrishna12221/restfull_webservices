@@ -1,0 +1,21 @@
+spring:
+ datasource:
+   driver-class-name: oracle.jdbc.driver.OracleDriver
+   url: jdbc:oracle:thin:@localhost:1521:orcl
+   username: siva
+   password: velpula
+
+#hibernate properties
+ jpa:
+  database-platform: org.hibernate.dialect.OracleDialect
+  show-sql: true
+  hibernate: 
+   ddl-auto: update
+   
+#server port Number
+server:
+ port: 4133
+#context path
+ servlet:
+  context-path: /rest_crud_operation
+    
